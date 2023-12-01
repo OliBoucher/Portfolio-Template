@@ -27,6 +27,8 @@ export default {
         richBlack: '#2e2e2e',
         eerieBlack: '#1f1f1f',
         onyx: '#5b5b5b',
+        turquoise: '#05f2f2',
+        rose: '#c03afe',
       },
       boxShadow: {
         card: '0px 35px 120px -15px #1f1f1f',
@@ -41,6 +43,7 @@ export default {
         xl: '1280px',
         '2xl': '1536px',
         '3xl': '1800px',
+        '4xl': '1920px',
       },
       backgroundImage: {
         about:
@@ -52,7 +55,7 @@ export default {
         hero: 'linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,0.95) 60%)',
         'hero-mobile':
           'linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)',
-        tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/backgrounds/nairobi.png')",
+        tech: "url('/src/assets/backgrounds/back_apropos.jpg')",
       },
       fontFamily: {
         arenq: ['Arenq'],

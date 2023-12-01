@@ -3,40 +3,38 @@ import {
   backend,
   ux,
   prototyping,
-  javascript,
-  typescript,
-  html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
   git,
-  figma,
-  docker,
-  postgresql,
-  rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
+  html,
+  javascript,
+  tailwind,
+  react,
+  sass,
+  aftereffects,
+  ai,
+  unity,
+  vue,
+  xd,
+  troisD,
+  jeu,
+  video,
+  design,
   space,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  web,
 } from '../assets';
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: 'apropos',
+    title: 'À propos',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Projets',
   },
   {
     id: 'contact',
@@ -46,11 +44,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Développeur Front-End',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Création de logo',
     icon: backend,
   },
   {
@@ -58,8 +56,8 @@ const services = [
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: "Réalisation d'assets",
+    icon: backend,
   },
 ];
 
@@ -77,87 +75,87 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'Vue JS',
+    icon: vue,
   },
   {
     name: 'React JS',
-    icon: reactjs,
+    icon: react,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Unity',
+    icon: unity,
   },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'SCSS',
+    icon: sass,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'After Effects',
+    icon: aftereffects,
   },
   {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
+    name: 'illustrator',
+    icon: ai,
   },
   {
     name: 'git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
+    name: 'Adobe XD',
+    icon: xd,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: "Travailler en collaboration",
+    company_name: 'Travailler ensemble pour mieux evoluer',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Conception de maquettes',
+    company_name: 'UI et UX Design',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Esprit critique',
+    company_name: 'Perfectibilite et remise en question',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Respect & Ouverture',
+    company_name: 'Savoire vivre ensemble',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+  },
+  {
+    title: 'Sourire et positivité',
+    company_name: 'Apprendre interagir et travailler avec le sourire pour une meilleure experience',
+    icon: dcc,
+    iconBg: '#333333',
+  },
+  {
+    title: 'Polyvalence',
+    company_name: 'Web Jeu Assets Logos Montage Effets videos et plus encore',
+    icon: dcc,
+    iconBg: '#333333',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Web',
+    description: 'Voyez mes projets web développés avec React JS et Vue JS.',
     tags: [
       {
         name: 'react',
@@ -172,15 +170,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: web,
     repo: 'https://github.com/shaqdeff/KomiKult',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Jeu vidéo',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Découvrez ma polyvalence au travers des jeux vidéo et des assets que j’ai réalisé.',
     tags: [
       {
         name: 'react',
@@ -195,14 +193,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
+    image: jeu,
     repo: 'https://github.com/shaqdeff/Leaderboard',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Vidéo',
+    description: 'Des effets vidéos, du montage et du tournage.',
     tags: [
       {
         name: 'nextjs',
@@ -217,14 +215,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
+    image: video,
     repo: 'https://github.com/shaqdeff/Math-Magicians',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Design',
+    description: `Le design UI/UX, un domaine où ma créativié s'exprime et est mise à l'épreuve.`,
     tags: [
       {
         name: 'nextjs',
@@ -239,15 +237,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
+    image: design,
     repo: 'https://github.com/shaqdeff/Movie-Metro',
     demo: 'https://movie-metro.netlify.app/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Autres',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      "Voyez l'étendue de ma polyvalence au travers divers autres projets et réalisations",
     tags: [
       {
         name: 'nextjs',
@@ -262,7 +260,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
+    image: troisD,
     repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },

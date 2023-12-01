@@ -66,10 +66,10 @@ const Contact = () => {
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Prenons contact</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
-
-        <form
+        
+        {/* <form
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-10 flex flex-col gap-6 font-poppins">
@@ -143,7 +143,7 @@ const Contact = () => {
               w-[23px] h-[23px] object-contain"
             />
           </button>
-        </form>
+        </form> */}
       </motion.div>
     </div>
   );
