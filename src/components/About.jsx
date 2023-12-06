@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { cvVideo } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -42,6 +43,7 @@ const About = () => {
       >
         Je m'appelle Oli Boucher, je suis un développeur front end ayant effectué ses études au Cégep de Saint-Jérôme en techniques d'intégration multimédia.
       </motion.p>
+      <video controls src={cvVideo} className="rounded-xl my-14"></video>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"

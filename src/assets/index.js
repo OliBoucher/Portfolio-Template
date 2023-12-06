@@ -4,6 +4,9 @@ import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
 import oli from './personal/Oli_face.png';
+import logo from './logo/OLI_white.png'
+import cv from './personal/CV_OliBoucher.pdf'
+import cvVideo from './personal/Cv_compress.mp4'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -34,10 +37,6 @@ import unity from './tech/unity.png';
 import vue from './tech/vue.png';
 import xd from './tech/xd.png';
 
-// import coverhunt from './company/coverhunt.png';
-// import dcc from './company/dcc.png';
-// import kelhel from './company/kelhel.png';
-// import microverse from './company/microverse.png';
 import brain from './company/brain.png';
 import collaboration from './company/collaboration.png';
 import multi from './company/multi.png';
@@ -53,6 +52,9 @@ import design from './projects/Design/PleinAir/Accueil - UI.jpg';
 import space from './projects/space-hub.png';
 
 export {
+  logo,
+  cv, 
+  cvVideo,
   bwmap,
   nairobi,
   whiteabstract,

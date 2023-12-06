@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu } from '../assets';
+import { close, menu, logo } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -21,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img
-            src='/src/assets/logo/OLI.svg'
+            src={logo}
             alt="logo"
             className="sm:w-[500px] sm:h-[50px] w-[45px] h-[45px] object-contain"
           />
