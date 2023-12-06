@@ -50,8 +50,6 @@ export {
   nairobi,
   whiteabstract,
   worldmap,
-  logo,
-  logotext,
   oli,
   backend,
   ux,
