@@ -19,11 +19,12 @@ import {
   jeu,
   video,
   design,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  vector,
+  multi,
+  collaboration,
+  smiley,
+  brain,
+  respect,
   web,
 } from '../assets';
 
@@ -49,7 +50,7 @@ const services = [
   },
   {
     title: 'Création de logo',
-    icon: backend,
+    icon: vector,
   },
   {
     title: 'UI/UX Design',
@@ -116,37 +117,37 @@ const experiences = [
   {
     title: "Travailler en collaboration",
     company_name: 'Travailler ensemble pour mieux evoluer',
-    icon: coverhunt,
+    icon: collaboration,
     iconBg: '#333333',
   },
   {
     title: 'Conception de maquettes',
     company_name: 'UI et UX Design',
-    icon: microverse,
+    icon: ux,
     iconBg: '#333333',
   },
   {
     title: 'Esprit critique',
     company_name: 'Perfectibilite et remise en question',
-    icon: kelhel,
+    icon: brain,
     iconBg: '#333333',
   },
   {
     title: 'Respect & Ouverture',
     company_name: 'Savoire vivre ensemble',
-    icon: dcc,
+    icon: respect,
     iconBg: '#333333',
   },
   {
     title: 'Sourire et positivité',
     company_name: 'Apprendre interagir et travailler avec le sourire pour une meilleure experience',
-    icon: dcc,
+    icon: smiley,
     iconBg: '#333333',
   },
   {
     title: 'Polyvalence',
     company_name: 'Web Jeu Assets Logos Montage Effets videos et plus encore',
-    icon: dcc,
+    icon: multi,
     iconBg: '#333333',
   },
 ];
