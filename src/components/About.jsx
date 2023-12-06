@@ -40,11 +40,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        Travaillant, persévérant et déterminé à progresser continuellement, mon
-        objectif est de briser les frontières entre l’art et la technologie. Je
-        vise à dominer le développement front end et le design web, en
-        élargissant mes compétences artistiques par l’exploration et la maîtrise
-        de frameworks et de techniques, au sein d’une équipe dynamique.
+        Je m'appelle Oli Boucher, je suis un développeur front end ayant effectué ses études au Cégep de Saint-Jérôme en techniques d'intégration multimédia.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
+      >
+        De nature travaillant, persévérant et déterminé à progresser continuellement, mon objectif est de briser les frontières entre l’art et la technologie. Je vise à dominer le développement front end et le design web, en élargissant mes compétences artistiques par l’exploration et la maîtrise de frameworks et de techniques, au sein d’une équipe dynamique.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
