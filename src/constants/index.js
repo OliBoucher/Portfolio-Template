@@ -2,7 +2,6 @@ import {
   frontend,
   backend,
   ux,
-  prototyping,
   css,
   git,
   html,
@@ -15,7 +14,6 @@ import {
   unity,
   vue,
   xd,
-  troisD,
   jeu,
   video,
   design,
@@ -448,7 +446,7 @@ const projects = [
     descriptionRapide:
       "Voyez l'étendue de ma polyvalence au travers divers autres projets et réalisations",
     description: `Mes études en Techniques d'intégration multimédia m'ont permis d'acquérir toutes sortes de compétences au travers divers projets. J'ai eu l'occasion de travailler sur du 3D, du 2D, de l'animation, du montage vidéo, du traitement sonore, de la conception de jeu, de la réalité virtuelle, de l'infographie, etc. Jetez un coup d'oeil à quelques-uns de mes projets!`,
-    image: troisD,
+    image: autre6,
     competences: [
       {
         competence: "Polyvalence",

@@ -5,6 +5,7 @@ import worldmap from './backgrounds/world-map.png';
 
 import oli from './personal/Oli_face.png';
 import cvOli from './personal/CV_OliBoucher.pdf';
+import logo from './logo/OLI_white.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -14,8 +15,6 @@ import oeil from './icons/oeil.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
-import pineapple from './icons/pineapple.png';
-import pineappleHover from './icons/pineappleHover.png';
 import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
@@ -47,12 +46,10 @@ import smiley from './company/smiley.png';
 import respect from './company/respect.png'
 
 
-import troisD from './projects/3d/streetFinal.jpg';
 import web from './projects/Web/BlueEcho/accueil.png';
 import jeu from './projects/Jeu/Acla/Menu.png';
 import video from './projects/Video/Logo.png';
 import design from './projects/Design/PleinAir/Accueil - UI.jpg';
-import space from './projects/space-hub.png';
 
 import blue1 from './projects/Web/BlueEcho/accueil.png';
 import Blue2 from './projects/Web/BlueEcho/artist.png';
@@ -114,8 +111,6 @@ export {
   close,
   download,
   downloadHover,
-  pineapple,
-  pineappleHover,
   vector,
   menu,
   resume,
@@ -133,12 +128,10 @@ export {
   unity,
   vue,
   xd,
-  troisD,
   web,
   jeu,
   video,
   design,
-  space,
   brain,
   collaboration,
   multi,
@@ -190,4 +183,5 @@ export {
   autre5,
   autre6,
   autre7,
+  logo,
 };

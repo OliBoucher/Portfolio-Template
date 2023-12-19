@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
-import { oeil, pineapple, pineappleHover } from "../assets";
+import { oeil } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant, staggerContainer } from "../utils/motion";
 import ProjectDetails from "./ProjetDetails";
