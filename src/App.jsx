@@ -40,6 +40,7 @@ const App = () => {
         <div className="relative z-0">
           <Contact />
         </div>
+        <div className='text-xl text-center bg-neutral-100 text-neutral-500 py-4'>Template par Shaquille Ndunda | Adapation par Oli Boucher</div>
       </div>
     </BrowserRouter>
   );

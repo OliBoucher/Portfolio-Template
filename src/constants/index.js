@@ -34,12 +34,43 @@ import {
   Blue6,
   Blue7,
   Blue8,
+  acla1,
+  acla2,
+  acla3,
+  acla4,
+  acla5,
+  acla6,
+  acla7,
+  acla8,
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  design1,
+  design2,
+  design3,
+  design4,
+  design5,
+  design6,
+  design7,
+  design8,
+  design9,
+  design10,
+  design11,
+  design12,
+  autre1,
+  autre2,
+  autre3,
+  autre4,
+  autre5,
+  autre6,
+  autre7,
 } from '../assets';
 
 export const navLinks = [
   {
     id: 'apropos',
-    title: 'À propos',
+    title: 'A propos',
   },
   {
     id: 'projects',
@@ -221,113 +252,254 @@ const projects = [
         url: Blue8,
       },
     ],  
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
     image: web,
     repo: 'https://blueecho.netlify.app/profil',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
-    name: 'Jeu vidéo',
-    description:
-      'Découvrez ma polyvalence au travers des jeux vidéo et des assets que j’ai réalisé.',
-    tags: [
+    name: 'Acla Odyssey',
+    descriptionRapide: 'Découvrez ma polyvalence au travers des jeux vidéo et des assets que j’ai réalisé',
+    description: `Acla Odyssey est un jeu de plateforme 2D réalisé au cours du module de jeu vidéo 4. Étalé sur 15 semaines, mon rôle consistait à développer tous les éléments visuels nécessaires pour le jeu. Travaillant en équipe avec deux développeurs back-end, Thomas Brunet et Michaël Malard, ainsi qu'un développeur front-end, nous avions la responsabilité de concevoir un thème et un monde imaginaire où un personnage évoluerait de niveau en niveau.\n\n Ce projet m'a permis de développer ma persévérance, me poussant à pousser mes réflexions et mon travail au-delà de mes limites grâce à un processus constant de retravail des éléments. Du cinémahine aux animations 2D, de la musique d'ambiance à la parallaxe, rien n'a été laissé au hasard. Le jeu mêle un style fantastique, plongeant le personnage au cœur de la nature pour éradiquer les ennemis du pays d'Acla Odyssey.\n\nJ'ai utilisé divers logiciels tels que Unity, Adobe Animate, Bandlab, Adobe Photoshop, ainsi que des outils comme Shader Graph et Procreate lors de la conception d'Acla Odyssey. Ces outils ont été extrêmement utiles pour concrétiser ma vision artistique et contribuer au succès du projet.`,
+    competences: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        competence: "Travailler en collaboration",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        competence: "Développement de jeu vidéo",
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        competence: "Création d'assets",
       },
-    ],
+      {
+        competence: "Respecter un échéancier",
+      },
+      {
+        competence: "Concevoir et planifier un jeu vidéo",
+      },
+      {
+        competence: "Persévérance et savoir recevoir la critique",
+      },
+    ],  
+    pic: [
+      {
+        name: 'acla1',
+        url: acla1,
+      },
+      {
+        name: 'acla2',
+        url: acla2,
+      },
+      {
+        name: 'acla3',
+        url: acla3,
+      },
+      {
+        name: 'acla4',
+        url: acla4,
+      },
+      {
+        name: 'acla5',
+        url: acla5,
+      },
+      {
+        name: 'acla6',
+        url: acla6,
+      },
+      {
+        name: 'acla7',
+        url: acla7,
+      },
+      {
+        name: 'acla8',
+        url: acla8,
+      },
+    ],  
     image: jeu,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j1/',
   },
   {
     id: 'project-3',
-    name: 'Vidéo',
-    description: 'Des effets vidéos, du montage et du tournage.',
-    tags: [
+    name: 'Logos',
+    descriptionRapide: 'Plusieurs cordes à mon arc, découvrez mes réalisations de logos',
+    description: `Durant mes études, j'ai pu faire l'acquisition de diverses capacité. Parmi celles-ci, la création de logo est l'une des plus stimulantes. J'ai eu l'occasion de créer plusieurs logos pour divers projets, dont certains sont présentés ci-dessous.\n\nJ'ai utilisé divers logiciels tels que Adobe Illustrator, Adobe Photoshop, Adobe XD et Adobe After Effects, Adobe Premiere Pro pour des projets d'animation de logos. Ces outils ont été extrêmement utiles pour concrétiser ma vision artistique. Je prône dans mon processus de création l'importance de la simplicité, de la créativité, la recherche d'inspiration, la compréhension du concept du projet et bien sûr, l'importance de savoir retravailler un concept jusqu'à ce qu'il soit le mieux exécuté possible.`,
+    competences: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        competence: "Création de logo",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        competence: "Compréhension de la demande d'un client",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        competence: "Professionnalisme dans la présentation des assets",
       },
-    ],
+      {
+        competence: "Créativité",
+      },
+      {
+        competence: "Adaptabilité",
+      },
+    ],  
+    pic: [
+      {
+        name: 'logo1',
+        url: logo1,
+      },
+      {
+        name: 'logo2',
+        url: logo2,
+      },
+      {
+        name: 'logo3',
+        url: Blue6,
+      },
+      {
+        name: 'logo4',
+        url: logo3,
+      },
+      {
+        name: 'logo5',
+        url: logo4,
+      },
+    ],  
     image: video,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://vimeo.com/896299536?share=copy',
   },
   {
     id: 'project-4',
-    name: 'Design',
-    description: `Le design UI/UX, un domaine où ma créativié s'exprime et est mise à l'épreuve.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
+    name: 'Design UI/UX',
+    descriptionRapide: `Le design UI/UX, un domaine où ma créativié s'exprime et est mise à l'épreuve.`,
+    description: `Le design est un domaine que j'ai exploré avec passion, nourrissant ma créativité tout au long de mes études en multimédia axé sur l'aspect artistique. En découvrant les coulisses du développement, j'ai réussi à fusionner ces deux domaines complémentaires, créant ainsi des designs réfléchis, efficaces sur le plan utilisateur et esthétiques.Mon approche du design 3.0 se caractérise par l'ajout de superpositions pour instiller un dynamisme distinct à mes sites web. Cependant, je suis également fasciné par le côté épuré et simpliste qui, bien souvent, fait toute la différence sur le web.
+    J'ai utilisé divers logiciels tels que Adobe Illustrator, Adobe Photoshop et Adobe XD pour donner vie à mes idées créatives. Dans mes créations, j'accorde une attention particulière à des aspects cruciaux tels que le parcours client, la recherche d'inspiration, les demandes du client et le schéma d'interactivité. Cette approche réfléchie vise à rendre l'expérience utilisateur non seulement agréable visuellement, mais également fluide et intuitive. L'expérience acquise m'a permis de développer des compétences dans la réflexion stratégique nécessaire à un design de qualité, tout en m'adaptant aux besoins spécifiques de chaque projet. Mon objectif est de créer des designs qui captivent, engagent et offrent une expérience mémorable aux utilisateurs.`,
     image: design,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    competences: [
+      {
+        competence: "Design d'interface",
+      },
+      {
+        competence: "Conception multiplateforme (responsive design)",
+      },
+      {
+        competence: "Compréhension de la demande d'un client",
+      },
+      {
+        competence: "Stratégie de développement",
+      },
+      {
+        competence: "Adaptabilité",
+      },
+      {
+        competence: "Expérience utilisateur	",
+      },
+    ],  
+    pic: [
+      {
+        name: 'design1',
+        url: design1,
+      },
+      {
+        name: 'design2',
+        url: design2,
+      },
+      {
+        name: 'design3',
+        url: design3,
+      },
+      {
+        name: 'design4',
+        url: design4,
+      },
+      {
+        name: 'design5',
+        url: design5,
+      },
+      {
+        name: 'design6',
+        url: design6,
+      },
+      {
+        name: 'design7',
+        url: design7,
+      },
+      {
+        name: 'design8',
+        url: design8,
+      },
+      {
+        name: 'design9',
+        url: design9,
+      },
+      {
+        name: 'design10',
+        url: design10,
+      },
+      {
+        name: 'design11',
+        url: design11,
+      },
+      {
+        name: 'design12',
+        url: design12,
+      },
+    ],  
   },
   {
     id: 'project-5',
     name: 'Autres',
-    description:
+    descriptionRapide:
       "Voyez l'étendue de ma polyvalence au travers divers autres projets et réalisations",
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
+    description: `Mes études en Techniques d'intégration multimédia m'ont permis d'acquérir toutes sortes de compétences au travers divers projets. J'ai eu l'occasion de travailler sur du 3D, du 2D, de l'animation, du montage vidéo, du traitement sonore, de la conception de jeu, de la réalité virtuelle, de l'infographie, etc. Jetez un coup d'oeil à quelques-uns de mes projets!`,
     image: troisD,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    competences: [
+      {
+        competence: "Polyvalence",
+      },
+      {
+        competence: "Montage vidéo | traitement sonore | conception de bande sonore | effects vidéos",
+      },
+      {
+        competence: "Compréhension de la demande d'un client",
+      },
+      {
+        competence: "Stratégie de développement",
+      },
+      {
+        competence: "Adaptabilité",
+      },
+      {
+        competence: "Expérience utilisateur	",
+      },
+    ],  
+    pic: [
+      {
+        name: 'autre1',
+        url: autre1,
+      },
+      {
+        name: 'autre2',
+        url: autre2,
+      },
+      {
+        name: 'autre3',
+        url: autre3,
+      },
+      {
+        name: 'autre4',
+        url: autre4,
+      },
+      {
+        name: 'autre5',
+        url: autre5,
+      },
+      {
+        name: 'autre6',
+        url: autre6,
+      },
+      {
+        name: 'autre7',
+        url: autre7,
+      }
+    ],  
+    repo: 'https://vimeo.com/user208908974',
   },
 ];
 

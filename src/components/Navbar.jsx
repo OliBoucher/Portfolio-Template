@@ -23,10 +23,10 @@ const Navbar = () => {
           <img
             src='/src/assets/logo/OLI_white.png'
             alt="logo"
-            className="sm:w-[500px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+            className="sm:w-full w-full sm:h-[50px] h-[45px] object-contain"
           />
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
+        <ul className="list-none hidden lg:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -41,7 +41,7 @@ const Navbar = () => {
         </ul>
 
         {/* mobile */}
-        <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
+        <div className="lg:hidden flex flex-1 w-screen justify-end items-center">
           {toggle ? (
             <div
               className={`p-6 bg-flashWhite opacity-[0.98] absolute 
@@ -58,14 +58,14 @@ const Navbar = () => {
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                items-start justify-start mt-[10rem] ml-[35px]">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
                     key={nav.id}
                     className={`${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
+                    } text-[60px] sm:text-[80px] font-bold font-arenq 
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
