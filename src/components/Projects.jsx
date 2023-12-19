@@ -2,13 +2,16 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
-import { github, pineapple, pineappleHover } from "../assets";
+import { oeil, pineapple, pineappleHover } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant, staggerContainer } from "../utils/motion";
+import ProjectDetails from "./ProjetDetails";
 
 const ProjectCard = ({
   id,
   name,
+  date,
+  descriptionRapide,
   description,
   image,
   repo,
@@ -16,7 +19,16 @@ const ProjectCard = ({
   index,
   active,
   handleClick,
+  competences,
+  pic
 }) => {
+  const [showDetails, setShowDetails] = useState(false);
+
+  const toggleDetails = () => {
+    setShowDetails(!showDetails);
+    console.log(showDetails);
+  };
+
   return (
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -62,7 +74,7 @@ const ProjectCard = ({
                   sm:opacity-[0.9] opacity-[0.8]"
               >
                 <img
-                  src={github}
+                  src={oeil}
                   alt="source code"
                   className="w-4/5 h-4/5 object-contain"
                 />
@@ -80,7 +92,7 @@ const ProjectCard = ({
               max-w-3xl sm:leading-[24px] leading-[18px]
               font-poppins tracking-[1px]"
             >
-              {description}
+              {descriptionRapide}
             </p>
             <button
               className="live-demo flex justify-between 
@@ -91,7 +103,8 @@ const ProjectCard = ({
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() => window.open(demo, "_blank")}
+              onClick={toggleDetails}
+              // onClick={() => window.open(demo, "_blank")}
               onMouseOver={() => {
                 document
                   .querySelector(".btn-icon")
@@ -112,6 +125,17 @@ const ProjectCard = ({
               Voir plus
             </button>
           </div>
+          {showDetails && (
+            <ProjectDetails
+              img={image}
+              titre={name}
+              date={date}
+              description={description}
+              competences={competences}
+              pic={pic}
+              fermeDetails={toggleDetails}
+            />
+          )}
         </>
       )}
     </motion.div>
@@ -122,7 +146,7 @@ const Projects = () => {
   const [active, setActive] = useState("project-2");
 
   return (
-    <div className="-mt-[6rem]">
+    <div className="-mt-[6rem]"> 
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Ce que je sais faire</p>
         <h2 className={`${styles.sectionHeadTextLight}`}>Projets.</h2>
@@ -133,7 +157,30 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
         >
-          Ma démarche artistique est ancrée dans un <span className="text-xl text-turquoise uppercase font-bold">engagement constant</span> envers l'excellence créative. Je m'investis profondément dans chaque projet, mettant un point d'honneur à constamment <span className="text-xl text-turquoise uppercase font-bold">affiner et développer</span> mes idées. Ma quête d'inspiration est inépuisable, alors que j'explore des horizons variés pour nourrir ma créativité. En tant que personne polyvalente, je m'efforce de <span className="text-xl text-turquoise uppercase font-bold">transcender les attentes</span>, que ce soit dans la conception d'interfaces utilisateur, la création de logos, le développement front-end, la réalisation visuelle de jeux vidéo, le montage vidéo, ou d'autres projets créatifs. Ma motivation ultime est de créer des œuvres qui non seulement répondent aux besoins fonctionnels, mais qui suscitent également une <span className="text-xl text-turquoise uppercase font-bold">fierté personnelle</span>, reflétant un engagement inébranlable envers l'art et l'innovation.
+          Ma démarche artistique est ancrée dans un{" "}
+          <span className="text-xl text-turquoise uppercase font-bold">
+            engagement constant
+          </span>{" "}
+          envers l'excellence créative. Je m'investis profondément dans chaque
+          projet, mettant un point d'honneur à constamment{" "}
+          <span className="text-xl text-turquoise uppercase font-bold">
+            affiner et développer
+          </span>{" "}
+          mes idées. Ma quête d'inspiration est inépuisable, alors que j'explore
+          des horizons variés pour nourrir ma créativité. En tant que personne
+          polyvalente, je m'efforce de{" "}
+          <span className="text-xl text-turquoise uppercase font-bold">
+            transcender les attentes
+          </span>
+          , que ce soit dans la conception d'interfaces utilisateur, la création
+          de logos, le développement front-end, la réalisation visuelle de jeux
+          vidéo, le montage vidéo, ou d'autres projets créatifs. Ma motivation
+          ultime est de créer des œuvres qui non seulement répondent aux besoins
+          fonctionnels, mais qui suscitent également une{" "}
+          <span className="text-xl text-turquoise uppercase font-bold">
+            fierté personnelle
+          </span>
+          , reflétant un engagement inébranlable envers l'art et l'innovation.
         </motion.p>
       </div>
 

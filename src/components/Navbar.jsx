@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-2 fixed 
-      top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}>
+      top-0 z-20 bg-gradient-to-r from-degrade1 to-degrade2 sm:opacity-[0.97] xxs:h-[12vh]`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
@@ -21,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img
-            src='/src/assets/logo/OLI.svg'
+            src='/src/assets/logo/OLI_white.png'
             alt="logo"
             className="sm:w-[500px] sm:h-[50px] w-[45px] h-[45px] object-contain"
           />
@@ -31,7 +31,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? 'text-french' : 'text-eerieBlack'
+                active === nav.title ? 'text-french' : 'text-white'
               } hover:text-taupe text-[21px] font-medium font-mova 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>

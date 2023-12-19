@@ -26,6 +26,14 @@ import {
   brain,
   respect,
   web,
+  blue1,
+  Blue2,
+  Blue3,
+  Blue4,
+  Blue5,
+  Blue6,
+  Blue7,
+  Blue8,
 } from '../assets';
 
 export const navLinks = [
@@ -155,8 +163,64 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'Web',
-    description: 'Voyez mes projets web développés avec React JS et Vue JS.',
+    name: 'BlueEcho',
+    date: '2023',
+    descriptionRapide: 'Découvrez BlueEcho, un projet web React JSX et Tailwind.',
+    description: `BlueEcho est un projet de développement web centré sur une application de musique. Réalisé en collaboration avec deux développeurs back-end (Camilien Provencher & Zachary Chandonnet) et moi-même en tant que développeur front-end, BlueEcho a été développé en React et utilise principalement Tailwind et CSS pour le style. Il intègre également l'API Deezer ainsi qu'une base de données Firebase pour ses aspects techniques.\n\nL'application offre la possibilité d'écouter des extraits de chansons, de créer des listes de lecture, de découvrir vos artistes et albums favoris, en plus d'ajouter des amis et de suivre en temps réel leurs activités musicales. BlueEcho a été développé dans le cadre d'un projet scolaire.\n\nLe design, le développement front-end et la création des logos ont été assurés par mes soins. J'ai opté pour un style sombre, marqué par un contraste vibrant de bleu, rose et mauve. Ce design moderne, animé, conjugue simplicité, efficacité et expérience utilisateur.`,
+    competences: [
+      {
+        competence: "Travailler en collaboration",
+      },
+      {
+        competence: "Développement web",
+      },
+      {
+        competence: "React.js et Tailwind CSS",
+      },
+      {
+        competence: "Respecter un échéancier",
+      },
+      {
+        competence: "Designer une application web (UI/UX)",
+      },
+      {
+        competence: "Travailler sous pression",
+      },
+    ],  
+    pic: [
+      {
+        name: 'blue1',
+        url: blue1,
+      },
+      {
+        name: 'blue2',
+        url: Blue2,
+      },
+      {
+        name: 'blue3',
+        url: Blue3,
+      },
+      {
+        name: 'blue4',
+        url: Blue4,
+      },
+      {
+        name: 'blue5',
+        url: Blue5,
+      },
+      {
+        name: 'blue6',
+        url: Blue6,
+      },
+      {
+        name: 'blue7',
+        url: Blue7,
+      },
+      {
+        name: 'blue8',
+        url: Blue8,
+      },
+    ],  
     tags: [
       {
         name: 'react',
@@ -172,7 +236,7 @@ const projects = [
       },
     ],
     image: web,
-    repo: 'https://github.com/shaqdeff/KomiKult',
+    repo: 'https://blueecho.netlify.app/profil',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {

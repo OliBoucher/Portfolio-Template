@@ -29,6 +29,8 @@ export default {
         onyx: '#5b5b5b',
         turquoise: '#05f2f2',
         rose: '#c03afe',
+        degrade1: '#5500E3',
+        degrade2: '#C63DFF'
       },
       boxShadow: {
         card: '0px 35px 120px -15px #1f1f1f',

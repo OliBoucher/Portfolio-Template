@@ -9,7 +9,7 @@ import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
-import github from './icons/github.png';
+import oeil from './icons/oeil.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
@@ -34,10 +34,6 @@ import unity from './tech/unity.png';
 import vue from './tech/vue.png';
 import xd from './tech/xd.png';
 
-// import coverhunt from './company/coverhunt.png';
-// import dcc from './company/dcc.png';
-// import kelhel from './company/kelhel.png';
-// import microverse from './company/microverse.png';
 import brain from './company/brain.png';
 import collaboration from './company/collaboration.png';
 import multi from './company/multi.png';
@@ -46,11 +42,22 @@ import respect from './company/respect.png'
 
 
 import troisD from './projects/3d/streetFinal.jpg';
-import web from './projects/Web/Agrotourisme/Menu.png';
+import web from './projects/Web/BlueEcho/accueil.png';
 import jeu from './projects/Jeu/Acla/Menu.png';
 import video from './projects/Video/Logo.png';
 import design from './projects/Design/PleinAir/Accueil - UI.jpg';
 import space from './projects/space-hub.png';
+
+import blue1 from './projects/Web/BlueEcho/accueil.png';
+import Blue2 from './projects/Web/BlueEcho/artist.png';
+import Blue3 from './projects/Web/BlueEcho/contact.png';
+import Blue4 from './projects/Web/BlueEcho/lecteur.png';
+import Blue5 from './projects/Web/BlueEcho/lecteurVeille.png';
+import Blue6 from './projects/Web/BlueEcho/logo.png';
+import Blue7 from './projects/Web/BlueEcho/recherche.png';
+import Blue8 from './projects/Web/BlueEcho/tendance.png';
+
+import cvVideo from './personal/CVVideo.mp4';
 
 export {
   bwmap,
@@ -62,7 +69,7 @@ export {
   ux,
   frontend,
   prototyping,
-  github,
+  oeil,
   close,
   download,
   downloadHover,
@@ -93,7 +100,16 @@ export {
   space,
   brain,
   collaboration,
-  multi, 
+  multi,
   smiley,
-  respect
+  respect,
+  blue1,
+  Blue2,
+  Blue3,
+  Blue4,
+  Blue5,
+  Blue6,
+  Blue7,
+  Blue8,
+  cvVideo
 };
